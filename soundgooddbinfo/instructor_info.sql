@@ -1,0 +1,19 @@
+DELETE FROM public.instructor_contact_info;
+INSERT INTO public.instructor_contact_info(
+	instructor_id, telefon_number, email_address)
+	VALUES 
+	(1, '0214738017', 'itstatus@mac.com'),
+	(2, '0586635387', 'yruan@live.com'),
+	(3, '0049668733', 'emcleod@me.com'),
+	(4, '0725554326', 'evans@icloud.com'),
+	(5, '0615436897', 'gerlo@verizon.net'),
+	(6, '0071765586', 'demmel@msn.com'),
+	(7, '0390917779', 'kwilliams@yahoo.ca'),
+	(8, '0811451703', 'tellis@gmail.com'),
+	(9, '0978092316', 'koudas@aol.com'),
+	(10, '0750747904', 'madler@optonline.net'),
+	(11, '0015830134', 'thrymm@gmail.com'),
+	(12, '0030878462', 'stecoop@aol.com'),
+	(13, '0410690770', 'biglou@yahoo.com'),
+	(14, '0335090313', 'augusto@hotmail.com'),
+	(15, '0419644510', 'munson@verizon.net');

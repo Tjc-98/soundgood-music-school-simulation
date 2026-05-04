@@ -1,0 +1,7 @@
+// go to the path
+cd "C:\Program Files\PostgreSQL\13\bin"
+// change dbname and name of the file to your database
+// this command to extract the structure only
+pg_dump -U postgres -W -F p --schema-only dbname > D:\mydbSCHEMA.sql
+// this command to extract the whole database structure and data
+pg_dump -U postgres -W -F p dbname > D:\mydb.sql

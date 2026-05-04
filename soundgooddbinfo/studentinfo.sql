@@ -1,0 +1,35 @@
+DELETE FROM public.student;
+ALTER SEQUENCE 	public.student_student_id_seq RESTART WITH 1;
+INSERT INTO public.student(
+	first_name, last_name, person_number, age, skill_level, street, city, zip_code)
+	VALUES 
+	('Tuva', 'Carlsson', 8107105655, 49, 'advanced', 'Liljerum Grenadjärtorpet 54', 'Sodertalje', 12345),
+	('Jonathan ', 'Nyberg', 6405261618, 56, 'beginner', 'Sandviken 23', 'Hallunda', 12343),
+	('Kaspar', 'Jonasson', 7010279516, 50, 'intermediate', 'Skärpinge 25', 'Stockholm', 21352),
+	('Matilde', 'Jansson', 9503281827, 25, 'intermediate', 'Liljerum Grenadjärtorpet 27', 'Stockholm', 23546),
+	('Wictor', 'Nyman', 9107253032, 29, 'beginner', 'Sandviken 56', 'Nacka', 54634),
+	('Wilmer', 'Nordin', 8911176512, 31, 'advanced', 'Liljerum Grenadjärtorpet 34', 'Nacka', 23562),
+	('Mostafa', 'Andersson', 6503177096, 55, 'intermediate', 'AddressValue 75', 'Tumba', 67743),
+	('Sabrina', 'Petersson', 8012130541, 40, 'beginner', 'Sandviken 35', 'Sodertalje', 41655),
+	('Adis', 'Löfgren', 6501288739, 55, 'advanced', 'Liljerum Grenadjärtorpet 65', 'Hallunda', 63426),
+	('Nova', 'Nordin', 9411144760, 26, 'intermediate', 'Skärpinge 44', 'Stockholm', 75534),
+	('Sonia', 'Magnusson', 6305241868, 57, 'beginner', 'Sandviken 33', 'Nacka', 46325),
+	('Madeleine', 'Ekström', 6511196468, 56, 'intermediate', 'Liljerum Grenadjärtorpet 22', 'Tumba', 23595),
+	('Denis', 'Jakobsson', 9706255834, 23, 'beginner', 'Hammarvägen 11', 'Hallunda', 12634),
+	('Nilas', 'Larsson', 8110038430, 39, 'advanced', 'Skärpinge 66', 'Sodertalje', 83656),
+	('Marika', 'Magnusson', 6406118304, 56, 'advanced', 'Sandviken 78', 'Stockholm', 75343),
+	('Livias', 'Berggren', 8808061520, 32, 'beginner', 'Liljerum Grenadjärtorpet 87', 'Nacka', 12575),
+	('Johan', 'Fransson', 7706272692, 43, 'intermediate', 'Skärpinge 98', 'Tumba', 86432),
+	('Elmer', 'Nyberg', 6803200499, 52, 'beginner', 'Lillesäter 78', 'Hallunda', 64242),
+	('Selina', 'Fransson', 8002182742, 40, 'beginner', 'Sandviken 67', 'Stockholm', 78534),
+	('Marika', 'Martinsson', 5812066909, 62, 'beginner', 'Liljerum Grenadjärtorpet 56', 'Sodertalje', 37354),
+	('Christofer', 'Berglund', 7108242723, 49, 'advanced', 'Skärpinge 45', 'Nacka', 56736),
+	('Daniela', 'Larsson', 8706292391, 33, 'intermediate', 'Sandviken 34', 'Stockholm', 84543),
+	('Sophia', 'Ström', 8804033291, 32, 'beginner', 'Liljerum Grenadjärtorpet 31', 'Hallunda', 36425),
+	('Maya', 'Persson', 8310272664, 37, 'advanced', 'Hammarvägen 42', 'Stockholm', 32643),
+	('Elvin', 'Karlsson', 5912254454, 61, 'intermediate', 'AddressValue 53', 'Tumba', 56876),
+	('Ali', 'Sundberg', 5709187974, 63, 'beginner', 'Hammarvägen 64', 'Hallunda', 43563),
+	('Sami', 'Eliasson', 7109182795, 49, 'intermediate', 'Liljerum Grenadjärtorpet 75', 'Nacka', 46735),
+	('Elina', 'Månsson', 7001068720, 50, 'beginner', 'Lillesäter 86', 'Tumba', 68455),
+	('Wilma', 'Dahlberg', 9208309907, 28, 'advanced', 'Sandviken 97', 'Stockholm', 34256),
+	('Zandra', 'Samuelsson', 7903274806, 41, 'beginner', 'Liljerum Grenadjärtorpet 79', 'Hallunda', 84343);

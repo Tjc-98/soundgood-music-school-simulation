@@ -1,0 +1,8 @@
+C:\Users\berjAlter\Documents\Visual Studio 2015\Projects\Student_query_builder\Student_query_builder\bin\Debug\Student_query_builder.exe.config
+E:\KTH material\År 2\project Datalagring\Student_query_builder\obj\Debug\Student_query_builder.csprojResolveAssemblyReference.cache
+E:\KTH material\År 2\project Datalagring\Student_query_builder\obj\Debug\Student_query_builder.csproj.CoreCompileInputs.cache
+E:\KTH material\År 2\project Datalagring\Student_query_builder\bin\Debug\Student_query_builder.exe.config
+E:\KTH material\År 2\project Datalagring\Student_query_builder\bin\Debug\Student_query_builder.exe
+E:\KTH material\År 2\project Datalagring\Student_query_builder\bin\Debug\Student_query_builder.pdb
+E:\KTH material\År 2\project Datalagring\Student_query_builder\obj\Debug\Student_query_builder.exe
+E:\KTH material\År 2\project Datalagring\Student_query_builder\obj\Debug\Student_query_builder.pdb
